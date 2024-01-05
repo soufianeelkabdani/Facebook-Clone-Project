@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/eab43b8525.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Find me</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <a href="index.html">
+                <img src="images/logo.png" class="logo">
+            </a>
+            <ul>
+                <li><img src="images/notification.png"></li>
+                <li><img src="images/inbox.png"></li>
+                <li><img src="images/video.png"></li>
+
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images/search.png">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="images/profile-pic.png">
+            </div>
+        </div>
+
+    <!-----settings-menu---------------------------------->
+        <div class="settings-menu">
+            <div id="dark-btn">
+                <span></span>
+            </div>
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png">
+                    <div>
+                        <p>Soufiane elkabdani</p>
+                        <a href="Profil.html">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="setting-links">
+                    <img src="images/setting.png" class="settings-icon">
+                    <a href="#">Settings & Privacy <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/help.png" class="settings-icon">
+                    <a href="#">Help & Support <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/display.png" class="settings-icon">
+                    <a href="#">Display & Accessibility <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/logout.png" class="settings-icon">
+                    <a href="#">Logout <img src="images/arrow.png" width="10px"></a>
+                </div>
+
+
+            </div>
+          
+        </div>
+    </nav>
+
+
+    <!--------------Profil--------------------------->
+    <div class="profil-container">
+        <img src="images/cover.png" class="cover-img">
+        <div class="profil-details">
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="images/profile-pic.png" class="pd-image">
+                    <div>
+                       <h3> Ali Elkabdani</h3>
+                       <p>1000 Friends</p>
+                       <img src="images/member-1.png">
+                       <img src="images/member-2.png">
+                       <img src="images/member-3.png">
+                       <img src="images/member-4.png">
+                       
+
+                    </div>
+                </div>
+            </div>
+            <div class="pd-right">
+                <button type="button"> <img src="images/message.png"> Message</button>
+                <a href=""> <img src="images/more.png"></a>
+            </div>
+
+        </div>
+
+        <div class="profil-info">
+            <div class="info-col">
+                <div class="profil-intro">
+                    <h3>Intro</h3>
+                    <p class="intro-text">"Believe in yourself and u can do unbelievable things" <img src="images/feeling.png"></p>
+                    <hr>
+                    <ul>
+                        <li> <img src="images/profile-job.png"> Developer freelancer</li>
+                        <li><img src="images/profile-study.png">Studied at Solicode</li>
+                        <li><img src="images/profile-location.png">From Nador, Morocco</li>
+                        <li><img src="images/profile-home.png">Lives in Tangier, Morocco</li>
+
+
+                    </ul>
+                    
+                </div>
+                <div class="profil-intro">
+                    <div class="title-box">
+                        <h3>Photos</h3>
+                        <a href="">All Photos</a>
+                    </div>
+                    <div class="photo-box">
+                        <div> <img src="images/photo1.jpg"></div>
+                        <div> <img src="images/photo2.jpg"></div>
+                        <div> <img src="images/photo3.jpg"></div>
+                    
+
+                    </div>
+                </div>
+
+                <div class="profil-intro">
+                    <div class="title-box">
+                        <h3>Friends</h3>
+                        <a href="">All Friends</a>
+                    </div>
+                    <div class="friends-box">
+                        <div> <img src="images/member-1.png"><p>Nihad Alami</p></div>
+                        <div> <img src="images/member-2.png"><p>Nadir Alaoui</p></div>
+                        <div> <img src="images/member-3.png"><p>Sanae Bazi</p></div>
+                        <div> <img src="images/member-4.png"><p>Ali kabdani</p></div>
+                        <div> <img src="images/member-5.png"><p>Mehdi Essou</p></div>
+                        <div> <img src="images/member-6.png"><p>Alya Nadira</p></div>
+            
+
+
+
+                    
+
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="post-col">
+
+
+                <div class="write-post-container">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <p>Soufiane elkabdani</p>
+                            <small>Public <i class="fa-solid fa-caret-down"></i></small>
+                        </div>
+                    </div>
+        
+                    <div class="post-input-container">
+                        <textarea rows="3" placeholder="What's on your mind, Soufiane?"></textarea>
+        
+                        <div class="add-post-links">
+                            <a href="#"><img src="images/live-video.png">Live Video</a>
+                            <a href="#"><img src="images/photo.png">Photo/Video</a>
+                            <a href="#"><img src="images/feeling.png">feeling/Activity</a>
+        
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/profile-pic.png">
+                            <div>
+                                <p>Soufiane elkabdani</p>
+                                <span>January 03 2024, 05:54 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                    </div>
+                    
+                    <p class="post-text"><span>HTML & CSS Full Course - Beginner to Pro </span><br>
+                        This HTML CSS full course is a series of HTML CSS tutorials, teaching the major skills that we need to create complex websites.
+                         Each HTML CSS tutorial builds on a project and provides some HTML CSS exercises to practice what we learned. 
+                        By the end, we'll learn the basics of web development and we'll be on our way to becoming a web developer and software engineer. <br>
+                        <a href="#">#YoutubeChannel</a> <a href="#">#Soufianelkabdani</a>
+                    </p>
+                        <img src="images/feed-image-1.png" class="post-img">
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div><img src="images/like-blue.png">150</div>
+                                <div><img src="images/comments.png">100</div>
+                                <div><img src="images/share.png">60</div>
+        
+                            </div>
+                            <div class="post-profile-icon">
+                                <img src="images/profile-pic.png"> <i class="fa-solid fa-caret-down"></i>
+                            </div>
+                        </div>
+                </div>
+        
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/profile-pic.png">
+                            <div>
+                                <p>Soufiane elkabdani</p>
+                                <span>January 03 2024, 06:20 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                    </div>
+                    
+                    <p class="post-text"><span>How to Work on Yourself </span><br>
+                        Jim Rohn was a renowned American entrepreneur, author, and motivational speaker, best known for his impactful teachings on personal development and success. Born on September 17, 1930, in Yakima, Washington, he rose to prominence as a leading figure in the self-help and personal growth industry.
+                         Rohn's philosophies revolved around the idea that personal success is achievable through continuous learning, setting clear goals, and cultivating a positive attitude. He left a lasting legacy through his books, seminars, and audio programs, inspiring countless individuals to strive for excellence and take control of their lives.
+                          Jim Rohn's wisdom and timeless insights continue to influence people worldwide, even after his passing in 2009. <br>
+                        <a href="#">#YoutubeChannel</a> <a href="#">#Soufianelkabdani</a>
+                    </p>
+                        <img src="images/feed-image-2.png" class="post-img">
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div><img src="images/like.png">120</div>
+                                <div><img src="images/comments.png">110</div>
+                                <div><img src="images/share.png">90</div>
+        
+                            </div>
+                            <div class="post-profile-icon">
+                                <img src="images/profile-pic.png"> <i class="fa-solid fa-caret-down"></i>
+                            </div>
+                        </div>
+                </div>
+        
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/profile-pic.png">
+                            <div>
+                                <p>Soufiane elkabdani</p>
+                                <span>January 03 2024, 07:20 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                    </div>
+                    
+                    <p class="post-text"><span>Social Development Strategy</span><br>
+                        This foundational CTC video illustrates the Social Development Strategy, as told by developer Dr. J. David Hawkins.. <br>
+                        <a href="#">#YoutubeChannel</a> <a href="#">#Soufianelkabdani</a>
+                    </p>
+                        <img src="images/feed-image-3.png" class="post-img">
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div><img src="images/like.png">100</div>
+                                <div><img src="images/comments.png">70</div>
+                                <div><img src="images/share.png">30</div>
+        
+                            </div>
+                            <div class="post-profile-icon">
+                                <img src="images/profile-pic.png"> <i class="fa-solid fa-caret-down"></i>
+                            </div>
+                        </div>
+                </div>
+        
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/profile-pic.png">
+                            <div>
+                                <p>Soufiane elkabdani</p>
+                                <span>January 03 2024, 07:00 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                    </div>
+                    
+                    <p class="post-text"><span>How to Interview for a Job</span><br>
+                        Learn how to prepare for a job interview.  Study common questions and practice and prepare you answers for a successful job interview.  
+                        Make sure to practice for interviews.  There's a lot you can do to be prepared!  In this video, learn about the small talk that usually starts an interview, 
+                        and the common question "Tell me a little bit about yourself."<br>
+                        <a href="#">#YoutubeChannel</a> <a href="#">#Soufianelkabdani</a>
+                    </p>
+                        <img src="images/feed-image-4.png" class="post-img">
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div><img src="images/like.png">200</div>
+                                <div><img src="images/comments.png">150</div>
+                                <div><img src="images/share.png">140</div>
+        
+                            </div>
+                            <div class="post-profile-icon">
+                                <img src="images/profile-pic.png"> <i class="fa-solid fa-caret-down"></i>
+                            </div>
+                        </div>
+                </div>
+        
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/profile-pic.png">
+                            <div>
+                                <p>Soufiane elkabdani</p>
+                                <span>January 03 2024, 08:20 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                    </div>
+                    
+                    <p class="post-text"><span>Team meeting </span><br>
+                        Some people complain that their regular meeting usually involve a lot of talk but no decisions are made. 
+                        So, what is important to consider to make a team meeting effective and productive? 
+                        What do you as a leader have to consider to engage everyone into the decision-making process?
+                        When was the last time you participated in a meeting? How was it? Why? See more ideas and the script here; <br>
+                        <a href="#">#YoutubeChannel</a> <a href="#">#Soufianelkabdani</a>
+                    </p>
+                        <img src="images/feed-image-5.png" class="post-img">
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div><img src="images/like.png">250</div>
+                                <div><img src="images/comments.png">150</div>
+                                <div><img src="images/share.png">140</div>
+        
+                            </div>
+                            <div class="post-profile-icon">
+                                <img src="images/profile-pic.png"> <i class="fa-solid fa-caret-down"></i>
+                            </div>
+                        </div>
+                </div>
+
+
+
+
+
+            </div>
+
+        </div>
+
+
+
+
+    </div>
+ 
+    <div class="footer">
+        <p>Copyright 2024- Soufiane El kabdani</p>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
